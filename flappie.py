@@ -15,6 +15,9 @@ class Bird:
         self.gravity = 500 * self.delta_time
         self.position = py.Vector2(self.initial_position)
 
+        # Adding a new constant as for a test.
+        const = 6.67e-10 # G const
+
     def drawing_birdie(self, screen_surface: py.Surface) -> py.Rect:
         """Drawing the bird and his presets"""
         # Work in progress
